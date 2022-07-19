@@ -13,7 +13,7 @@ Statement st = null;
     public Conexion(){
         try 
             {
-                String rutafile = "C:\\Users\\lgnra\\Documents\\MiDesktop\\CLEMPS-Final\\CLEMS.accdb";
+                String rutafile = "C:\\Users\\DELL\\Desktop\\CLEMPS\\CLEMPS.accdb";
                 String Url = "jdbc:ucanaccess://" + rutafile;
                 ccn = DriverManager.getConnection(Url);
                 st = ccn.createStatement();
